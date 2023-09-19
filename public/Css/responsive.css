@@ -1,0 +1,771 @@
+@media screen and (max-width: 1399px) {
+
+    #hamburg {
+        display: block;
+        margin-right: 12px;
+        margin-left: -53px;
+    }
+
+    #header .navFlex {
+        display: none !important;
+    }
+
+    #renderBullets {
+        display: none;
+    }
+
+    .commonMT {
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 574px) {
+
+    #header .navLogo img {
+        width: 80%;
+        margin-left: 12px;
+    }
+}
+
+
+@media screen and (min-width: 1400px) and (max-width: 1650px) {
+
+    #header .navFlex {
+        gap: 0;
+    }
+
+    .commonTexts {
+        padding: 20px 200px;
+    }
+
+    #bundles .card .cardImg .appImg {
+        top: 12px;
+    }
+
+    #bundles .card .productDetails .card-text {
+        font-size: 20px;
+    }
+
+    #testimonials {
+        margin-top: 320px;
+    }
+
+    #newsletter {
+        top: -210px;
+    }
+
+    #newsletter .row {
+        padding: 20px 123px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .megaSale .saleLeftDiv {
+        padding-top: 126px;
+    }
+
+    .megaSale .saleLeftDiv .offerShape {
+        left: 236px;
+        top: 30px;
+    }
+
+    .megaSale .saleLeftDiv .offerShapeText {
+        left: 298px;
+        top: 68px;
+    }
+
+    .commonTexts {
+        padding: 20px 200px;
+    }
+
+    #bundles .row .col-lg-4 {
+        width: 50%;
+    }
+
+    #whyChoose .whyChooseImg img {
+        width: 92%;
+    }
+
+    #newsletter {
+        top: -194px;
+    }
+
+    #newsletter .row {
+        padding: 22px 123px;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .megaSale {
+        overflow: hidden;
+    }
+
+    .megaSale {
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        padding-right: 0px;
+    }
+
+    .megaSale .col-lg-9,
+    #whyChoose .row .col-lg-6,
+    #newsletter .row .col-lg-6 {
+        width: 100%;
+    }
+
+    .megaSale .saleLeftDiv {
+        padding-top: 126px;
+        left: 120px;
+    }
+
+    .megaSale .saleLeftDiv .offerShape {
+        left: 385px;
+        top: -98px;
+    }
+
+    .megaSale .saleLeftDiv .offerShapeText {
+        left: 446px;
+        top: -62px;
+    }
+
+    .commonTexts {
+        padding: 20px 30px;
+    }
+
+    #bundles .row .col-lg-4 {
+        width: 50%;
+    }
+
+    #bundles .card .productDetails .card-text {
+        font-size: 20px;
+    }
+
+    #whyChoose .whyChooseImg img {
+        width: auto;
+    }
+
+    #newsletter {
+        top: -160px;
+        padding: 12px 50px;
+    }
+
+    #newsletter .row {
+        padding: 20px 12px;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    #chooseUs .wrapper {
+        padding: 50px 0px;
+    }
+
+    #counter .row .col-lg-3 {
+        width: 50%;
+    }
+
+    #whyChoose .whyChooseContent {
+        align-items: center;
+    }
+
+    footer {
+        margin-top: 270px;
+    }
+
+    footer .cpyRight {
+        margin-top: -170px;
+        padding: 60px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .megaSale {
+        overflow: hidden;
+    }
+
+    .megaSale {
+        align-items: center;
+        justify-content: center;
+        padding: 0px 36px;
+        padding-right: 0px;
+    }
+
+    .megaSale .saleRightDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .megaSale .saleRightDiv .saleImgBottom {
+        margin-left: 12px;
+    }
+
+    .megaSale .saleLeftDiv {
+        padding-top: 126px;
+        left: 0px;
+    }
+
+    .megaSale .saleLeftDiv .offerShape {
+        left: 385px;
+        top: -98px;
+    }
+
+    .megaSale .saleLeftDiv .offerShapeText {
+        left: 446px;
+        top: -62px;
+    }
+
+    .commonTexts {
+        padding: 20px 0px;
+    }
+
+    #bundles .row .col-lg-4 {
+        width: 100%;
+    }
+
+    #whyChoose .whyChooseImg img {
+        width: auto;
+    }
+
+    #newsletter {
+        top: -160px;
+        padding: 12px 50px;
+    }
+
+    #newsletter .row {
+        padding: 20px 12px;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    #chooseUs .chooseUsImg {
+        justify-content: center;
+    }
+
+    #chooseUs .chooseUsImg::after {
+        width: 56vw;
+    }
+
+    #chooseUs .wrapper {
+        padding: 50px 0px;
+    }
+
+    #counter .row .col-lg-3 {
+        width: 50%;
+    }
+
+    #whyChoose .whyChooseContent {
+        align-items: center;
+    }
+
+    footer {
+        margin-top: 270px;
+    }
+
+    footer .cpyRight {
+        margin-top: -170px;
+        padding: 60px;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+
+    .megaSale {
+        overflow: hidden;
+    }
+
+    .megaSale {
+        align-items: center;
+        justify-content: center;
+        padding: 0px 36px;
+        padding-right: 0px;
+    }
+
+    .megaSale .saleRightDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .megaSale .saleRightDiv .saleImgBottom {
+        margin-left: 12px;
+    }
+
+    .megaSale .saleLeftDiv {
+        padding-top: 126px;
+        left: 0px;
+    }
+
+    .megaSale .saleLeftDiv .offerShape {
+        left: 230px;
+        top: 65px;
+    }
+
+    .megaSale .saleLeftDiv .offerShape img {
+        width: 160px;
+    }
+
+    .megaSale .saleLeftDiv .offerShapeText {
+        left: 272px;
+        top: 94px;
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .commonHeadline {
+        font-size: 34px;
+    }
+
+    .commonTexts {
+        padding: 20px 0px;
+    }
+
+    #bundles .row .col-lg-4 {
+        width: 100%;
+    }
+
+    #whyChoose .whyChooseContent .card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #whyChoose .whyChooseImg img {
+        width: 100%;
+    }
+
+    #newsletter {
+        top: -160px;
+        padding: 12px 50px;
+    }
+
+    #newsletter .row {
+        padding: 20px 12px;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    #chooseUs .chooseUsImg {
+        justify-content: center;
+    }
+
+    #chooseUs .chooseUsImg::after {
+        width: 56vw;
+    }
+
+    #chooseUs .wrapper {
+        padding: 50px 0px;
+    }
+
+    #counter .row .col-lg-3 {
+        width: 50%;
+    }
+
+    #whyChoose .whyChooseContent {
+        align-items: center;
+    }
+
+    footer {
+        margin-top: 270px;
+    }
+
+    footer .cpyRight {
+        margin-top: -170px;
+        padding: 60px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 574px) {
+
+    .megaSale {
+        overflow: hidden;
+    }
+
+    .megaSale {
+        align-items: center;
+        justify-content: center;
+        padding: 0px 36px;
+        padding-right: 0px;
+    }
+
+    .megaSale .saleRightDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 30px;
+    }
+
+    .megaSale .saleRightDiv .saleImgBottom {
+        margin-left: 12px;
+    }
+
+    .megaSale .saleLeftDiv {
+        padding-top: 60px;
+        left: -10px;
+    }
+
+    .megaSale .saleLeftDiv .saleHeadline {
+        font-size: 32px;
+        line-height: 14px;
+    }
+
+    .megaSale .saleLeftDiv .midLine {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    .megaSale .saleLeftDiv .offerShape {
+        left: 155px;
+        top: 25px;
+    }
+
+    .megaSale .saleLeftDiv .offerShape img {
+        width: 130px;
+    }
+
+    .megaSale .saleLeftDiv .offerShapeText {
+        left: 190px;
+        top: 45px;
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .megaSale .saleLeftDiv .desc {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .commonHeadline {
+        font-size: 34px;
+    }
+
+    .commonTexts {
+        padding: 20px 0px;
+    }
+
+    #bundles .row .col-lg-4 {
+        width: 100%;
+    }
+
+    #bundles .card .cardImg .appImg {
+        top: 22px;
+    }
+
+    #bundles .card .cardImg .appImg img {
+        height: 240px;
+    }
+
+    #bundles .card .productDetails .card-title {
+        font-size: 26px;
+        height: 50px;
+    }
+
+    #bundles .card .productDetails .card-text {
+        font-size: 16px;
+    }
+
+    #bundles .card .productDetails .card-text svg {
+        margin-right: 6px;
+    }
+
+    #bundles .card .cardFooter .salePriceDiv .price {
+        font-size: 26px;
+    }
+
+    #bundles .card .cardFooter .buyBtn {
+        font-size: 18px;
+    }
+
+    #whyChoose .whyChooseContent .card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #whyChoose .whyChooseImg img {
+        width: 100%;
+    }
+
+    #newsletter {
+        top: -160px;
+        padding: 12px 50px;
+        width: 90%;
+    }
+
+    #newsletter .row {
+        padding: 20px 12px;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    #newsletter .newsletterText .nlTitle {
+        font-size: 38px;
+    }
+
+    #newsletter .newsletterText .nlText {
+        font-size: 20px;
+    }
+
+    #chooseUs .chooseUsImg {
+        justify-content: center;
+    }
+
+    #chooseUs .chooseUsImg::after {
+        width: 56vw;
+    }
+
+    #chooseUs .wrapper {
+        padding: 50px 0px;
+    }
+
+    #counter .countWrapper {
+        padding: 20px;
+    }
+
+    #counter .countWrapper .countCard {
+        justify-content: start;
+    }
+
+    #whyChoose .whyChooseContent .card .cardInnerFlex {
+        width: 100%;
+    }
+
+    #whyChoose .whyChooseContent {
+        align-items: center;
+    }
+
+    footer {
+        margin-top: 270px;
+    }
+
+    footer .cpyRight {
+        margin-top: -170px;
+        padding: 60px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 399px) {
+
+    .megaSale,
+    #solutions,
+    #newsletter,
+    #counter,
+    #bundles,
+    #chooseUs,
+    #whyChoose,
+    #testimonials {
+        overflow: hidden;
+    }
+
+    .commonMT{
+        margin-top: 50px;
+    }
+
+    .megaSale {
+        align-items: center;
+        justify-content: center;
+        padding: 0px 36px;
+        padding-right: 0px;
+    }
+
+    .megaSale .saleRightDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 30px;
+    }
+
+    .megaSale .saleRightDiv .saleImgBottom {
+        margin-left: -4px;
+        margin-top: -20px;
+    }
+
+    .megaSale .saleRightDiv .saleImgBottom img {
+        width: 300px;
+    }
+
+    .megaSale .saleLeftDiv {
+        padding-top: 50px;
+        left: -10px;
+    }
+
+    .megaSale .saleLeftDiv .saleHeadline {
+        font-size: 24px;
+        line-height: 14px;
+    }
+
+    .megaSale .saleLeftDiv .midLine {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .megaSale .saleLeftDiv .offerShape {
+        left: 98px;
+        top: 40px;
+    }
+
+    .megaSale .saleLeftDiv .offerShape img {
+        width: 100px;
+    }
+
+    .megaSale .saleLeftDiv .offerShapeText {
+        left: 126px;
+        top: 52px;
+        font-size: 20px;
+        line-height: 30px;
+        text-shadow: none;
+    }
+
+    .megaSale .saleLeftDiv .desc {
+        font-size: 16px;
+        width: 100%;
+        margin-top: -10px;
+    }
+
+
+    .megaSale .saleRightDiv .saleImg img {
+        width: 100%;
+    }
+
+    .commonHeadline {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .commonTexts {
+        padding: 20px 0px;
+    }
+
+    #solution .solutionBtn {
+        padding: 2px;
+    }
+
+    #counter .countWrapper .countCard .countContent .countNum {
+        font-size: 34px;
+    }
+
+    #bundles .row .col-lg-4 {
+        width: 100%;
+    }
+
+    #bundles .card .cardImg .appImg {
+        top: 22px;
+    }
+
+    #bundles .card .cardImg .appImg img {
+        height: 176px;
+    }
+
+    #bundles .card .productDetails .card-title {
+        font-size: 22px;
+        height: 50px;
+    }
+
+    #bundles .card .productDetails .card-text {
+        font-size: 16px;
+    }
+
+    #bundles .card .productDetails {
+        margin: 0;
+    }
+
+    #bundles .card .productDetails .card-text svg {
+        margin-right: 4px;
+    }
+
+    #bundles .card .cardFooter .salePriceDiv .price {
+        font-size: 26px;
+    }
+
+    #bundles .card .cardFooter .buyBtn {
+        font-size: 18px;
+    }
+
+    #bundles .card .cardFooter {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 22px;
+    }
+
+    #bundles .card .productDetails .detailWrapper {
+        height: 145px;
+    }
+
+    #whyChoose .whyChooseContent .card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #whyChoose .whyChooseImg img {
+        width: 100%;
+    }
+
+    #newsletter {
+        top: -160px;
+        padding: 12px 20px;
+        width: 90%;
+    }
+
+    #newsletter .row {
+        padding: 20px 12px;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    #newsletter .newsletterText .nlTitle {
+        font-size: 38px;
+    }
+
+    #newsletter .newsletterText .nlText {
+        font-size: 20px;
+    }
+
+    #chooseUs .chooseUsImg {
+        justify-content: center;
+    }
+
+    #chooseUs .chooseUsImg img {
+        width: 75%;
+    }
+
+    #chooseUs .chooseUsImg::after {
+        width: 56vw;
+    }
+
+    #chooseUs .wrapper {
+        padding: 20px 0px;
+    }
+
+    #counter .countWrapper {
+        padding: 20px;
+    }
+
+    #counter .countWrapper .countCard {
+        justify-content: start;
+    }
+
+    #whyChoose .whyChooseContent .card .cardInnerFlex {
+        width: 100%;
+    }
+
+    #whyChoose .whyChooseContent {
+        align-items: center;
+    }
+
+    footer {
+        margin-top: 270px;
+    }
+
+    footer .cpyRight {
+        font-size: 16px;
+        margin-top: -170px;
+        padding: 50px 0px;
+    }
+}
