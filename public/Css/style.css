@@ -868,3 +868,22 @@ footer .cpyRight {
     margin-top: -260px;
     padding: 70px;
 }
+
+.topHeader{
+    background-color: #EC8C24;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.topHeader .topHeaderBtn {
+    background: #08ab2f;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 16px;
+    color: white;
+}

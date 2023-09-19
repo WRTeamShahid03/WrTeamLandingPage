@@ -78,7 +78,7 @@ const Solution = () => {
                         <div className="commonTexts">
 
                             <h2 className='commonHeadline'>Let End-to-End Solutions Brighten Your Development Adventure!</h2>
-                            <span className='commonSpan'>Don't waste time and money on inefficient app development. Embrace excellence with our End-to-End Solutions, ensuring top-notch quality at an affordable price. Take charge and soar to success!
+                            <span className='commonSpan'>Don&apos;t waste time and money on inefficient app development. Embrace excellence with our End-to-End Solutions, ensuring top-notch quality at an affordable price. Take charge and soar to success!
                                 Choose wisely, choose us!</span>
                         </div>
                     </div>

@@ -129,7 +129,7 @@ const Testimonials = () => {
         <section id="testimonials" className='container commonMT'>
             <div className="commonTexts">
                 <h2 className='commonHeadline'> Our Customers Speak for Us!</h2>
-                <span className='commonSpan'>Don't just take our word for it! Hear from satisfied customers.</span>
+                <span className='commonSpan'>Don&apos;t just take our word for it! Hear from satisfied customers.</span>
             </div>
             <div className="testSlider">
                 <Swiper

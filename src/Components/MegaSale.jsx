@@ -24,7 +24,9 @@ const MegaSale = () => {
                     <div className="col-sm-12 col-md-12 col-lg-3">
                         <div className="saleRightDiv">
                             <span className='saleImg'><img src={saleImg.src} alt="" /> </span>
-                            <span className='saleImgBottom'><img src={saleImgBack.src} alt="" /> </span>
+                            <span className='saleImgBottom'>
+                                <img src={saleImgBack.src} alt="" />
+                                 </span>
                         </div>
                     </div>
                 </div>
