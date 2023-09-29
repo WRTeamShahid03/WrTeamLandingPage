@@ -399,17 +399,6 @@ a {
     border-radius: 16px;
 }
 
-@media only screen and (max-width: 575px) {
-    #bundles .card .upperDiv {
-        margin: -18px;
-        margin-top: 6px;
-    }
-    #bundles .card .lowerDiv {
-        margin: 6px;
-    }
-}
-
-
 #bundles .card .productsIcon {
     display: flex;
     gap: 12px;

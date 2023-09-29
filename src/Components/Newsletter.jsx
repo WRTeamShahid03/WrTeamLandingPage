@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react'
 import nlBg from '../Assets/Images/BG.png'
+import { Toaster, toast } from 'react-hot-toast';
 
 const Newsletter = () => {
 
@@ -9,37 +10,50 @@ const Newsletter = () => {
     const scriptURL = 'https://script.google.com/macros/s/AKfycbw2EYgABa9JHHyH1b1Ylrc-bxYtnhMGHgDzMPm7B-nXdQvfoZajvcxqhwdiwVINTkcp/exec';
 
     const handleSubmit = async (e) => {
-        const msg = document.getElementById("msg")
-        const clearForm = document.forms['submit-to-google-sheet']
         e.preventDefault();
+        const msg = document.getElementById("msg");
+        const clearForm = document.forms['submit-to-google-sheet'];
 
-        try {
-            const response = await fetch(scriptURL, {
-                method: 'POST',
-                body: new FormData(e.target),
-            });
+        if (email.trim() === '' || name.trim() === '') {
+            // msg.innerHTML = 'Please fill out the form.';
+            toast.error('Please fill out the form!')
+            setTimeout(() => {
+                msg.innerHTML = '';
+            }, 3000);
+        } else {
+            try {
+                const response = await fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(e.target),
+                });
 
-            if (response.ok) {
-                msg.innerHTML = 'Subscribe successfully !'
-                setEmail('');
-                setName('')
-                setTimeout(function () {
-                    msg.innerHTML = '';                    
-                }, 3000)
-                clearForm.reset();
-                // You can update the UI or perform other actions upon success.
-            } else {
-                console.error('Error!', response);
-                // Handle errors here.
+                if (response.ok) {
+                    // msg.innerHTML = 'Subscribe successfully!';
+                    toast.success('Subscribe successfully!')
+                    setEmail('');
+                    setName('');
+                    setTimeout(() => {
+                        msg.innerHTML = '';
+                    }, 3000);
+                    clearForm.reset();
+                    // You can update the UI or perform other actions upon success.
+                } else {
+                    console.error('Error!', response);
+                    // Handle errors here.
+                }
+            } catch (error) {
+                console.error('Error!', error.message);
+                // Handle network or other errors here.
             }
-        } catch (error) {
-            console.error('Error!', error.message);
-            // Handle network or other errors here.
         }
     };
 
+
     return (
         <>
+        <Toaster
+  position="top-center"
+  reverseOrder={false}/>
             <section id='newsletter' className='container' style={{
                 background: `url(${nlBg.src})`,
                 backgroundSize: "100% 100%",
