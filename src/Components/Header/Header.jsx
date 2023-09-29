@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import navLogo from '../../Assets/Images/Logo.svg'
@@ -10,9 +10,26 @@ const Header = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const [headerTop, setHeaderTop] = useState(0);
+  const [scroll, setScroll] = useState(0);
+
+  useEffect(() => {
+
+    const nav = typeof document !== 'undefined' && document.querySelector(".nav");
+    setHeaderTop(nav.offsetTop);
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    setScroll(window.scrollY);
+  };
   return (
     <>
-      <Navbar expand="lg" id="header" className='nav container'>
+      <Navbar expand="lg" id="header"  className={`container nav ${scroll > headerTop ? "sticky " : ""}`}>
 
         <div className='col-lg-9'>
           <div className="navLogo">

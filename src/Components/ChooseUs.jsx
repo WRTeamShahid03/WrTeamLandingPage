@@ -16,7 +16,7 @@ const ChooseUs = () => {
                         <div className="col-sm-12 col-md-12 col-lg-8">
                             <div className="commonTexts">
                                 <h2 className='commonHeadline'>Choose Wisely, Choose Us</h2>
-                                <span className='commonSpan'>Avoid Null Products, Choose Authentic Software
+                                <span className='commonSpan'>Avoid Null Products, Choose Authentic Source Code
                                     for Peace of Mind.</span>
                             </div>
                         </div>

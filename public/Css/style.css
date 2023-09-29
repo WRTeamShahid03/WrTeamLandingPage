@@ -98,7 +98,7 @@ a {
     width: 80% !important;
 }
 
-.offcanvas-body .navFlex{
+.offcanvas-body .navFlex {
     flex-direction: column;
 }
 
@@ -399,6 +399,16 @@ a {
     border-radius: 16px;
 }
 
+@media only screen and (max-width: 575px) {
+    #bundles .card .upperDiv {
+        margin: -18px;
+        margin-top: 6px;
+    }
+    #bundles .card .lowerDiv {
+        margin: 6px;
+    }
+}
+
 
 #bundles .card .productsIcon {
     display: flex;
@@ -697,7 +707,7 @@ a {
     font-weight: 500;
 }
 
-#testimonials .testSlider .swiperCard .testiFoot .cardFootText .userImg img{
+#testimonials .testSlider .swiperCard .testiFoot .cardFootText .userImg img {
     width: 50px;
     border-radius: 50px;
 }
@@ -869,7 +879,7 @@ footer .cpyRight {
     padding: 70px;
 }
 
-.topHeader{
+.topHeader {
     background-color: #EC8C24;
     color: white;
     height: 60px;
@@ -886,4 +896,55 @@ footer .cpyRight {
     border: none;
     border-radius: 16px;
     color: white;
+}
+
+#countdown .countdownDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+
+#countdown .countdownDiv .countdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 16px;
+}
+
+#countdown .countdownDiv .countdown-container .countdown-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0A0C28;
+}
+
+
+#countdown .countdownDiv .countdown-container .countdown-box .commonBorder{
+    padding: 2px 3px;
+    padding-bottom: 5px;
+}
+
+#countdown .countdownDiv .countdown-container .countdown-box .countTimer {
+    background-color: #0A0C28;
+    border-radius: 12px;
+    padding: 10px 26px;
+    width: 90px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+
+#countdown .countdownDiv .countdown-container .countdown-box .countdown-label {
+    margin-top: 12px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
 }

@@ -22,10 +22,10 @@ function MyApp({ Component, pageProps, data }) {
 
             <Header />
 
-            <Component {...pageProps} data={data} />
-            <Footer/>
-        </>
-    );
+                <Component {...pageProps} data={data} />
+                <Footer />
+            </>
+            );
 }
 
-export default MyApp;
+            export default MyApp;

@@ -6,6 +6,7 @@ import Bundles from '../Bundles'
 import ChooseUs from '../ChooseUs'
 import WhyChoose from '../WhyChoose'
 import Testimonials from '../Testimonials'
+import CountDown from './CountDown'
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
       <div className="container">
 
         <MegaSale />
+
+        <CountDown/>
 
         <Solution />
 

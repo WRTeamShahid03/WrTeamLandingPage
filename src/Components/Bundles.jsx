@@ -362,6 +362,7 @@ const Bundles = () => {
                                         <div className="card" style={{ 
                                             backgroundColor: e.backColor,
                                          }}>
+                                            <div className="upperDiv">
                                             <span className='productsIcon'>
                                                 <span> <img src={e.icon1.src} alt="" /></span>
                                                 <span> <img src={e.icon2.src} alt="" /></span>
@@ -374,6 +375,10 @@ const Bundles = () => {
                                                 </span>
                                                 <span className='appImg'><img src={e.appImg.src} alt="" /></span>
                                             </div>
+                                            </div>
+                                            
+
+                                            <div className="lowerDiv">
                                             <div className="card-body">
                                                 <div className="productDetails">
                                                     <h5 className="card-title">{e.title}</h5>
@@ -415,6 +420,9 @@ const Bundles = () => {
                                                 </div>
 
                                             </div>
+
+                                            </div>
+                                           
 
                                         </div>
                                     </div>

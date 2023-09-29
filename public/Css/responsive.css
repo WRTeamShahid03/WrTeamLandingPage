@@ -18,6 +18,7 @@
         margin-top: 70px;
     }
 }
+
 @media screen and (max-width: 574px) {
 
     #header .navLogo img {
@@ -221,6 +222,10 @@
         top: -62px;
     }
 
+    #countdown .countdownDiv .countdown-container {
+        gap: 24px;
+    }
+
     .commonTexts {
         padding: 20px 0px;
     }
@@ -317,6 +322,10 @@
         top: 94px;
         font-size: 34px;
         line-height: 40px;
+    }
+
+    #countdown .countdownDiv .countdown-container {
+        gap: 12px;
     }
 
     .commonHeadline {
@@ -442,8 +451,24 @@
         width: 100%;
     }
 
+    #countdown .countdownDiv .countdown-container {
+        gap: 12px;
+    }
+    #countdown .countdownDiv {
+        font-size: 25px;
+    }
+
+
+    #countdown .countdownDiv .countdown-container .countdown-box .countTimer {
+        padding: 8px 18px;
+        font-size: 20px;
+    }
+    #countdown .countdownDiv .countdown-container .countdown-box .countdown-label {
+        font-size: 16px;
+    }
+
     .commonHeadline {
-        font-size: 34px;
+        font-size: 24px;
     }
 
     .commonTexts {
@@ -563,7 +588,7 @@
         overflow: hidden;
     }
 
-    .commonMT{
+    .commonMT {
         margin-top: 50px;
     }
 
@@ -633,6 +658,23 @@
     .megaSale .saleRightDiv .saleImg img {
         width: 100%;
     }
+
+    #countdown .countdownDiv .countdown-container {
+        gap: 10px;
+    }
+    #countdown .countdownDiv {
+        font-size: 25px;
+    }
+
+
+    #countdown .countdownDiv .countdown-container .countdown-box .countTimer {
+        padding: 8px 12px;
+        font-size: 20px;
+    }
+    #countdown .countdownDiv .countdown-container .countdown-box .countdown-label {
+        font-size: 16px;
+    }
+
 
     .commonHeadline {
         font-size: 22px;
