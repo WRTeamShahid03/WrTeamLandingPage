@@ -18,6 +18,7 @@ const Solution = () => {
             title: "eBroker",
             desc: "Real estate business solution",
             img: ebroker,
+            // img: `https://wrteam.in/september-super-sale/${ebroker}/`,
             link: "https://1.envato.market/oqe11O"
         },
         {

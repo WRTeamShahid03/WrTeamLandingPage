@@ -912,7 +912,7 @@ footer .cpyRight {
 }
 
 
-#countdown .countdownDiv .countdown-container .countdown-box .commonBorder{
+#countdown .countdownDiv .countdown-container .countdown-box .commonBorder {
     padding: 2px 3px;
     padding-bottom: 5px;
 }
@@ -936,4 +936,23 @@ footer .cpyRight {
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
+}
+
+.countdownOver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countdownOver span {
+    font-family: 'Roboto';
+    font-size: 45px;
+    background: linear-gradient();
+    color: #ff9066ed;
+}
+
+.countdownOver .boldText {
+    font-size: 50px;
+    font-weight: 900;
 }
