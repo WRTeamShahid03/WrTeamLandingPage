@@ -33,6 +33,10 @@
     #header .navFlex {
         gap: 0;
     }
+    .nav-link {
+        font-size: 16px !important;
+        padding: 0px 9px!important;
+    }
 
     .commonTexts {
         padding: 20px 200px;
@@ -63,7 +67,7 @@
         padding: 50px;
     }
 
-    
+
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -80,6 +84,9 @@
     .megaSale .saleLeftDiv .offerShapeText {
         left: 298px;
         top: 68px;
+    }
+    .megaSale .saleLeftDiv .saleHeadline {
+        margin-top: -32px;
     }
 
     .commonTexts {
@@ -219,7 +226,7 @@
     }
 
     .megaSale .saleLeftDiv {
-        padding-top: 126px;
+        padding-top: 94px;
         left: 0px;
     }
 
@@ -323,7 +330,7 @@
     }
 
     .megaSale .saleLeftDiv {
-        padding-top: 126px;
+        padding-top: 40px;
         left: 0px;
     }
 
@@ -441,13 +448,12 @@
     }
 
     .megaSale .saleLeftDiv {
-        padding-top: 60px;
+        padding-top: 18px;
         left: -10px;
     }
 
     .megaSale .saleLeftDiv .saleHeadline {
-        font-size: 32px;
-        line-height: 14px;
+        font-size: 38px;
     }
 
     .megaSale .saleLeftDiv .midLine {
@@ -609,7 +615,7 @@
     
 }
 
-@media screen and (min-width: 320px) and (max-width: 399px) {
+@media screen and (max-width: 399px) {
 
     .megaSale,
     #solutions,
@@ -651,13 +657,12 @@
     }
 
     .megaSale .saleLeftDiv {
-        padding-top: 50px;
+        padding-top: 10px;
         left: -10px;
     }
 
     .megaSale .saleLeftDiv .saleHeadline {
-        font-size: 24px;
-        line-height: 14px;
+        font-size: 30px;
     }
 
     .megaSale .saleLeftDiv .midLine {
