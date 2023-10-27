@@ -404,22 +404,61 @@ a {
     gap: 12px;
     align-items: center;
     justify-content: start;
-    margin-left: 42px;
+    margin-left: 45px;
     padding-top: 14px;
 }
 
 #bundles .card .cardImg {
     position: relative;
+    margin-top: -22px;
 }
 
 #bundles .card .cardImg img {
     width: 100%;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1650px) {
+    #bundles .card .cardImg img {
+        padding: 0 8px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #bundles .card .cardImg img {
+        margin: 0 -12px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 575px) {
+    #bundles .card .cardImg img {
+        padding: 0 12px;
+        padding-top: 6px;
+    }
+}
+@media screen and (max-width: 399px) {
+    #bundles .card .cardImg img {
+        padding: 0 18px;
+        padding-top: 10px;
+    }
+}
+
 #bundles .card .cardImg .appImg {
     position: absolute;
-    top: 56px;
+    top: 86px;
     right: 28px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #bundles .card .cardImg .appImg {
+        top: 228px;
+        right: 60px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #bundles .card .cardImg .appImg {
+        top: 50px;
+    }
 }
 
 #bundles .card .productDetails {
@@ -429,8 +468,16 @@ a {
     border-radius: 16px;
 }
 
-#bundles .card .productDetails .detailWrapper {
-    height: 200px;
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+    #bundles .card .productDetails .detailWrapper {
+        height: 200px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #bundles .card .productDetails .detailWrapper {
+        height: 100% !important;
+    }
 }
 
 #bundles .card .productDetails .card-title {
@@ -438,7 +485,12 @@ a {
     font-family: Roboto;
     font-size: 30px;
     font-weight: 800;
-    height: 75px;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1650px) {
+    #bundles .card .productDetails .card-title {
+        font-size: 27px !important;
+    }
 }
 
 #bundles .card .productDetails .webAppPrice {
@@ -459,7 +511,6 @@ a {
 }
 
 #bundles .card .cardFooter {
-    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -511,6 +562,24 @@ a {
 
 #bundles .card .cardFooter .buyBtn svg {
     margin-right: 4px;
+}
+
+#bundles .upperDiv {
+    margin: 0 -40px;
+    margin-top: -10px;
+}
+
+#bundles .lowerDiv {
+    margin: 0 -32px;
+    margin-top: -48px;
+    margin-bottom: -32px;
+}
+
+@media screen and (max-width: 399px) {
+    #bundles .lowerDiv {
+        margin: 0 -12px;
+        margin-top: -20px;
+        margin-bottom: -12px;    }
 }
 
 /* bundles ends  */

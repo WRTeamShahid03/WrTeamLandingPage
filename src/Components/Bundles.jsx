@@ -93,7 +93,8 @@ const Bundles = () => {
             salePrice: "$33",
             cutPrice: "$68",
             link: "https://1.envato.market/nLWvnM",
-            backColor: "ecart"
+            backColor: "ecart",
+            height: '108px'
         },
         {
             id: 1,
@@ -115,30 +116,10 @@ const Bundles = () => {
             salePrice: "$29",
             cutPrice: "$59",
             link: "https://1.envato.market/OryZ1P",
-            backColor: "#BBE0CA"
+            backColor: "#BBE0CA",
+            height: '108px'
         },
-        {
-            id: 2,
-            icon1: eshop1,
-            icon2: eshop2,
-            icon3: eshop3,
-            icon4: "",
-            webImg: eshopWeb,
-            appImg: eshopApp,
-            title: "eShop Bundle (Single-Vendor)",
-            p1Name: "eShop App",
-            p1Price: "$49",
-            p2Name: "eShop Web",
-            p2Price: "$39",
-            p3Name: "eShop manager app",
-            p3Price: "$19",
-            p4Name: "",
-            p4Price: "",
-            salePrice: "$52",
-            cutPrice: "$107",
-            link: "https://1.envato.market/Qy2XJ6",
-            backColor: "#BBF7FF"
-        },
+        
         {
             id: 3,
             icon1: erestro1,
@@ -159,7 +140,8 @@ const Bundles = () => {
             salePrice: "$38",
             cutPrice: "$78",
             link: "https://1.envato.market/jrJ4zZ",
-            backColor: "#FFC8C8"
+            backColor: "#FFC8C8",
+            height: '108px'
         },
         {
             id: 4,
@@ -181,7 +163,8 @@ const Bundles = () => {
             salePrice: "$33",
             cutPrice: "$68",
             link: "https://1.envato.market/EKRP9D",
-            backColor: "#ACCBFF"
+            backColor: "#ACCBFF",
+            height: '108px'
         },
         {
             id: 5,
@@ -205,95 +188,8 @@ const Bundles = () => {
             salePrice: "$58",
             cutPrice: "$118",
             link: "https://1.envato.market/jrJ4nZ",
-            backColor: "#FFE8B7"
-        },
-        {
-            id: 6,
-            icon1: extra1,
-            icon2: extra2,
-            icon3: extra3,
-            icon4: "",
-            webImg: extraWeb,
-            appImg: extraApp,
-            title: "Extravaganza Pack",
-            p1Name: "Game Earning System",
-            p1Price: "$39",
-            p2Name: "Quotes App",
-            p2Price: "$19",
-            p3Name: "Tic Tac Toe Game",
-            p3Price: "$19",
-            p4Name: "",
-            p4Price: "",
-            salePrice: "$37",
-            cutPrice: "$77",
-            link: "https://1.envato.market/5g1GM1",
-            backColor: "#D3FFE8"
-        },
-        {
-            id: 7,
-            icon1: ultimate1,
-            icon2: ultimate2,
-            icon3: ultimate3,
-            icon4: ultimate4,
-            webImg: ultiWeb,
-            appImg: ultiApp,
-            title: "Ultimate Business Bundle",
-            p1Name: "Multi Vendor Grocery App",
-            p1Price: "$59",
-            p2Name: "Multi Vendor e-Com App",
-            p2Price: "$69",
-            p3Name: "Real Estate Broker App",
-            p3Price: "$59",
-            p4Name: "On Demand service App",
-            p4Price: "$59",
-            salePrice: "$121",
-            cutPrice: "$246",
-            link: "https://1.envato.market/q4OvEN",
-            backColor: "#A7EDED"
-        },
-        {
-            id: 8,
-            icon1: flutter1,
-            icon2: flutter2,
-            icon3: flutter3,
-            icon4: "",
-            webImg: flutterWeb,
-            appImg: flutterApp,
-            title: "Flutter Mega Bundle",
-            p1Name: "Flutter Biggest UI Kit",
-            p1Price: "$29",
-            p2Name: "PrimeWeb",
-            p2Price: "$39",
-            p3Name: "News App and Web",
-            p3Price: "$19",
-            p4Name: "",
-            p4Price: "",
-            salePrice: "$42",
-            cutPrice: "$87",
-            link: "https://1.envato.market/Qy2XNx",
-            backColor: "#FFCBF6"
-        },
-        {
-            id: 9,
-            icon1: ecart1,
-            icon2: ecart2,
-            icon3: ecart3,
-            icon4: "",
-            webImg: eCartWeb,
-            appImg: eCartApp,
-            title: "eCart Single-Vendor Bundle",
-            p1Name: "eCart App",
-            p1Price: "$29",
-            p2Name: "eCart Web",
-            p2Price: "$19",
-            p3Name: "eCart store manager app",
-            p3Price: "$14",
-            p4Name: "",
-            p4Price: "",
-            salePrice: "$30",
-            cutPrice: "$62",
-            link: "https://1.envato.market/PymgrN",
-            backColor: "#C7E7FF"
+            backColor: "#FFE8B7",
+            height: '108px'
         },
         {
             id: 10,
@@ -315,7 +211,8 @@ const Bundles = () => {
             salePrice: "$38",
             cutPrice: "$78",
             link: "https://1.envato.market/B0R9zW",
-            backColor: "#FFDDCA"
+            backColor: "#FFDDCA",
+            height: '108px'
         },
         {
             id: 11,
@@ -337,7 +234,123 @@ const Bundles = () => {
             salePrice: "$38",
             cutPrice: "$78",
             link: "https://1.envato.market/nLWvR9",
-            backColor: "#D3E5FF"
+            backColor: "#D3E5FF",
+            height: '160px'
+        },
+        {
+            id: 9,
+            icon1: ecart1,
+            icon2: ecart2,
+            icon3: '',
+            icon4: "",
+            webImg: eCartWeb,
+            appImg: eCartApp,
+            title: "eCart Single-Vendor Bundle",
+            p1Name: "eCart App",
+            p1Price: "$29",
+            p2Name: "eCart Web",
+            p2Price: "$19",
+            p3Name: "",
+            p3Price: "",
+            p4Name: "",
+            p4Price: "",
+            salePrice: "$30",
+            cutPrice: "$62",
+            link: "https://1.envato.market/PymgrN",
+            backColor: "#C7E7FF",
+            height: '160px'
+        },
+        {
+            id: 2,
+            icon1: eshop1,
+            icon2: eshop2,
+            icon3: eshop3,
+            icon4: "",
+            webImg: eshopWeb,
+            appImg: eshopApp,
+            title: "eShop Bundle (Single-Vendor)",
+            p1Name: "eShop App",
+            p1Price: "$49",
+            p2Name: "eShop Web",
+            p2Price: "$39",
+            p3Name: "eShop manager app",
+            p3Price: "$19",
+            p4Name: "",
+            p4Price: "",
+            salePrice: "$52",
+            cutPrice: "$107",
+            link: "https://1.envato.market/Qy2XJ6",
+            backColor: "#BBF7FF",
+            height: '160px'
+        },
+        {
+            id: 6,
+            icon1: extra1,
+            icon2: extra2,
+            icon3: extra3,
+            icon4: "",
+            webImg: extraWeb,
+            appImg: extraApp,
+            title: "Extravaganza Pack",
+            p1Name: "Game Earning System",
+            p1Price: "$39",
+            p2Name: "Quotes App",
+            p2Price: "$19",
+            p3Name: "Tic Tac Toe Game",
+            p3Price: "$19",
+            p4Name: "",
+            p4Price: "",
+            salePrice: "$37",
+            cutPrice: "$77",
+            link: "https://1.envato.market/5g1GM1",
+            backColor: "#D3FFE8",
+            height: '206px'
+        },
+        {
+            id: 8,
+            icon1: flutter1,
+            icon2: flutter2,
+            icon3: flutter3,
+            icon4: "",
+            webImg: flutterWeb,
+            appImg: flutterApp,
+            title: "Flutter Mega Bundle",
+            p1Name: "Flutter Biggest UI Kit",
+            p1Price: "$29",
+            p2Name: "PrimeWeb",
+            p2Price: "$39",
+            p3Name: "News App and Web",
+            p3Price: "$19",
+            p4Name: "",
+            p4Price: "",
+            salePrice: "$42",
+            cutPrice: "$87",
+            link: "https://1.envato.market/Qy2XNx",
+            backColor: "#FFCBF6",
+            height: '206px'
+        },
+        {
+            id: 7,
+            icon1: ultimate1,
+            icon2: ultimate2,
+            icon3: ultimate3,
+            icon4: ultimate4,
+            webImg: ultiWeb,
+            appImg: ultiApp,
+            title: "Ultimate Business Bundle",
+            p1Name: "Multi Vendor Grocery App",
+            p1Price: "$59",
+            p2Name: "Multi Vendor e-Com App",
+            p2Price: "$69",
+            p3Name: "Real Estate Broker App",
+            p3Price: "$59",
+            p4Name: "On Demand service App",
+            p4Price: "$59",
+            salePrice: "$121",
+            cutPrice: "$246",
+            link: "https://1.envato.market/q4OvEN",
+            backColor: "#A7EDED",
+            height: '206px'
         },
 
     ]
@@ -382,9 +395,10 @@ const Bundles = () => {
                                             <div className="card-body">
                                                 <div className="productDetails">
                                                     <h5 className="card-title">{e.title}</h5>
-                                                    <div className="detailWrapper">
-
-
+                                                    <div className="detailWrapper"
+                                                    style={{ 
+                                                        height: e.height
+                                                     }}>
                                                         <span className="webAppPrice mt-4">
                                                             <p className="card-text"> {!e.p1Name ? "" : <FiCheckCircle />} {e.p1Name}</p>
                                                             <p className="card-text"> {e.p1Price}</p>

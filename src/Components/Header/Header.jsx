@@ -53,7 +53,7 @@ const Header = () => {
 
         </Navbar.Collapse>
 
-        <span onClick={handleShow} id='hamburg'><GiHamburgerMenu size={36} /></span>
+        <span onClick={handleShow} id='hamburg'><GiHamburgerMenu color='white' size={36} /></span>
 
       </Navbar>
 

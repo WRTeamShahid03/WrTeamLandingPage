@@ -5,9 +5,8 @@ const CountDown = () => {
     const [targetTime, setTargetTime] = useState(getTargetTime());
     const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
-    function getTargetTime() {
-        const targetTime = new Date();
-        targetTime.setHours(19, 30, 0, 0); // Set target time to 7:30 PM today
+     function getTargetTime() {
+        const targetTime = new Date('2023-09-30T19:30:00Z'); 
         return targetTime;
     }
 
