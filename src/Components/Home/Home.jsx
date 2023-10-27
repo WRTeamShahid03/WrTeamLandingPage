@@ -15,7 +15,7 @@ const Home = () => {
 
         <MegaSale />
 
-        <CountDown/>
+        {/* <CountDown/> */}
 
         <Solution />
 

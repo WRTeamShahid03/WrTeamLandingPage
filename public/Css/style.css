@@ -37,6 +37,10 @@ a {
     }
 }
 
+header {
+    border-bottom: 1px solid;
+}
+
 #header {
     height: 95px;
     align-items: center;
@@ -63,10 +67,11 @@ a {
 
 .nav-link {
     color: #fff !important;
-    font-size: 16px;
+    font-size: 18px !important;
     font-style: normal;
     font-weight: 400;
     transition: all 0.3s ease-in-out;
+    padding: 0px !important;
 }
 
 
@@ -133,11 +138,17 @@ a {
 }
 
 .megaSale .saleLeftDiv .saleHeadline {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 48px;
+    /* color: #f6008a; */
+    font-family: 'Roboto';
+    font-size: 68px;
     font-weight: 900;
     line-height: 58px;
+    text-transform: uppercase;
+    font-style: oblique;
+    background: linear-gradient(98deg, rgba(0, 136, 255, 0.08) 0.38%, rgba(103, 0, 255, 0.03) 99.61%);
+    background: linear-gradient(to right, #FF0177, #EC8C24, #FF0177,#EC8C24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .megaSale .saleLeftDiv .midLine {
@@ -241,7 +252,7 @@ a {
     text-align: center;
     font-family: "Roboto", "sans-serif";
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .commonTexts {
@@ -435,6 +446,7 @@ a {
         padding-top: 6px;
     }
 }
+
 @media screen and (max-width: 399px) {
     #bundles .card .cardImg img {
         padding: 0 18px;
@@ -579,7 +591,8 @@ a {
     #bundles .lowerDiv {
         margin: 0 -12px;
         margin-top: -20px;
-        margin-bottom: -12px;    }
+        margin-bottom: -12px;
+    }
 }
 
 /* bundles ends  */
@@ -674,7 +687,7 @@ a {
 #whyChoose .whyChooseContent .card .cardText {
     font-family: Roboto;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 /* whyChoose ends  */
@@ -793,7 +806,7 @@ a {
 }
 
 .swiper-button-prev {
-    background-color: #0A0C28;
+    /* background-color: #0A0C28; */
     display: inline-block;
     padding: 4px;
     border-radius: 4px;
@@ -801,7 +814,7 @@ a {
 }
 
 .swiper-button-next {
-    background-color: #0A0C28;
+    /* background-color: #0A0C28; */
     display: inline-block;
     padding: 4px;
     border-radius: 4px;
@@ -898,6 +911,7 @@ a {
     padding: 12px;
     cursor: pointer;
     text-align: center;
+    font-weight: 600;
 
 }
 
@@ -1024,4 +1038,24 @@ footer .cpyRight {
 .countdownOver .boldText {
     font-size: 50px;
     font-weight: 900;
+}
+
+
+.megaSale,
+#solution,
+#bundles,
+#chooseUs,
+#whyChoose,
+#testimonials {
+    overflow: hidden;
+}
+
+
+
+/* firecracker */
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }

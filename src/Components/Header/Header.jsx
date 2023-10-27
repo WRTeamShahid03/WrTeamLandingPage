@@ -29,54 +29,57 @@ const Header = () => {
   };
   return (
     <>
-      <Navbar expand="lg" id="header"  className={`container nav ${scroll > headerTop ? "sticky " : ""}`}>
+      <header>
+        <Navbar expand="lg" id="header" className={`container nav ${scroll > headerTop ? "sticky " : ""}`}>
 
-        <div className='col-lg-9'>
-          <div className="navLogo">
-            <Link href="/">  <img src={navLogo.src} alt="navLogo" /> </Link>
+          <div className='col-lg-9'>
+            <div className="navLogo">
+              <Link href="/">  <img src={navLogo.src} alt="navLogo" /> </Link>
+            </div>
           </div>
-        </div>
 
 
 
-        <Navbar.Collapse id="basic-navbar-nav" className='col-lg-3 navcoll'>
-          <Nav className="me-auto navFlex">
-            <Link className="nav-link" href="/"> Home</Link>
+          <Navbar.Collapse id="basic-navbar-nav" className='col-lg-3 navcoll'>
+            <Nav className="me-auto navFlex">
+              <Link className="nav-link" href="/"> Home</Link>
 
-            <Link className="nav-link" href="https://wrteam.in/shop/">Products</Link>
+              <Link className="nav-link" href="https://wrteam.in/shop/">Products</Link>
 
-            <Link className='nav-link' href='https://wrteam.in/about-us/'> About Us </Link>
-
-
-            <Link className="nav-link" href="https://wrteam.in/contact-us/">Contact Us</Link>
-          </Nav>
-
-        </Navbar.Collapse>
-
-        <span onClick={handleShow} id='hamburg'><GiHamburgerMenu color='white' size={36} /></span>
-
-      </Navbar>
-
-      <Offcanvas show={show} onHide={handleClose} placement='end'
-        scroll={true}
-        backdrop={true}>
-        <Offcanvas.Header closeButton className='btn-close-white'>
-          <Offcanvas.Title></Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          <Nav className="me-auto navFlex">
-            <Link className="nav-link" href="/"> Home</Link>
-
-            <Link className="nav-link" href="https://wrteam.in/shop/">Products</Link>
-
-            <Link className='nav-link' href='https://wrteam.in/about-us/'> About Us </Link>
+              <Link className='nav-link' href='https://wrteam.in/about-us/'> About Us </Link>
 
 
-            <Link className="nav-link" href="https://wrteam.in/contact-us/">Contact Us</Link>
-          </Nav>
+              <Link className="nav-link" href="https://wrteam.in/contact-us/">Contact Us</Link>
+            </Nav>
 
-        </Offcanvas.Body>
-      </Offcanvas>
+          </Navbar.Collapse>
+
+          <span onClick={handleShow} id='hamburg'><GiHamburgerMenu color='white' size={36} /></span>
+
+        </Navbar>
+
+        <Offcanvas show={show} onHide={handleClose} placement='end'
+          scroll={true}
+          backdrop={true}>
+          <Offcanvas.Header closeButton className='btn-close-white'>
+            <Offcanvas.Title></Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            <Nav className="me-auto navFlex">
+              <Link className="nav-link" href="/"> Home</Link>
+
+              <Link className="nav-link" href="https://wrteam.in/shop/">Products</Link>
+
+              <Link className='nav-link' href='https://wrteam.in/about-us/'> About Us </Link>
+
+
+              <Link className="nav-link" href="https://wrteam.in/contact-us/">Contact Us</Link>
+            </Nav>
+
+          </Offcanvas.Body>
+        </Offcanvas>
+      </header>
+
     </>
   )
 }

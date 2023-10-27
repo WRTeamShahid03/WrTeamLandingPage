@@ -51,12 +51,19 @@
     }
 
     #newsletter {
-        top: -210px;
+        top: -160px;
     }
 
     #newsletter .row {
         padding: 20px 123px;
     }
+
+    footer .cpyRight {
+        margin-top: -170px;
+        padding: 50px;
+    }
+
+    
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {

@@ -2,6 +2,8 @@ import React from 'react'
 import offerShape from '../Assets/Images/Offer Shape.svg'
 import saleImg from '../Assets/Images/Image.png'
 import saleImgBack from '../Assets/Images/Back.png'
+import Fireworks from './Fireworks'
+
 
 const MegaSale = () => {
     return (
@@ -11,7 +13,7 @@ const MegaSale = () => {
                 <div className="megaSale row">
                     <div className="col-sm-12 col-md-12 col-lg-9">
                         <div className="saleLeftDiv">
-                            <span className="saleHeadline">Super September</span>
+                            <span className="saleHeadline">Diwali Sale</span>
                             <span className='offerWrapper'>
                                 <span className='offerShape'><img src={offerShape.src} alt="" /></span>
                                 <span className='offerShapeText'>50% <br /> OFF</span>
@@ -30,6 +32,7 @@ const MegaSale = () => {
                         </div>
                     </div>
                 </div>
+                <Fireworks/>
             </div>
         </>
     )
