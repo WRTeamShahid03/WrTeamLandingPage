@@ -668,6 +668,7 @@
     .megaSale .saleLeftDiv .midLine {
         font-size: 48px;
         line-height: 60px;
+        margin-top: -34px;
     }
 
     .megaSale .saleLeftDiv .offerShape {
