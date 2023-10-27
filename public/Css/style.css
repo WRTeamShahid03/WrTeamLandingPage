@@ -147,6 +147,7 @@ header {
     font-style: oblique;
     background: linear-gradient(98deg, rgba(0, 136, 255, 0.08) 0.38%, rgba(103, 0, 255, 0.03) 99.61%);
     background: linear-gradient(to right, #FF0177, #EC8C24, #FF0177,#EC8C24);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
