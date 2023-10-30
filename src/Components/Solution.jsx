@@ -66,7 +66,7 @@ const Solution = () => {
         {
             id: 7,
             title: "eGrocer",
-            desc: "Grocery business solutions",
+            desc: "Grocery business solution",
             img: egrocer,
             link: 'https://1.envato.market/DK0gQn'
         },

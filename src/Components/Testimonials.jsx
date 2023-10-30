@@ -142,6 +142,7 @@ const Testimonials = () => {
                         clickable: true,
                         renderBullet: renderBullet
                     }}
+                    loop={true}
                     navigation
                     className='testiSwiper'
                     breakpoints={breakpoints}
