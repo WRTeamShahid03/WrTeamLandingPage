@@ -54,6 +54,7 @@
 
     .megaSale .saleLeftDiv .offerWrapper {
         left: 158px;
+        top: 100px;
     }
 
     #bundles .card .cardImg .appImg {
@@ -101,7 +102,7 @@
 
     .megaSale .saleLeftDiv .offerWrapper {
         left: 268px;
-        top: 30px;
+        top: 10px;
     }
 
     .megaSale .saleLeftDiv {
@@ -551,7 +552,7 @@
         font-size: 45px;
         line-height: 60px;
         text-align: center;
-        margin-left: -55px;
+        margin-left: 0px;
     }
 
     .megaSale .saleLeftDiv .offerShape {

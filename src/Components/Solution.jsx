@@ -4,7 +4,7 @@ import ebroker from '../Assets/Images/ebroker.svg'
 import eDemand from '../Assets/Images/eDemand.svg'
 import elite from '../Assets/Images/elite.svg'
 import eshop from '../Assets/Images/eshop.svg'
-import eshool from '../Assets/Images/eshool.svg'
+import eshool from '../Assets/Images/eschool.svg'
 import erestro from '../Assets/Images/erestro.svg'
 import news from '../Assets/Images/news.svg'
 import egrocer from '../Assets/Images/egrocer.svg'
@@ -44,10 +44,10 @@ const Solution = () => {
         },
         {
             id: 4,
-            title: "eSchool",
+            title: "eSchool SaaS",
             desc: "School management solution",
             img: eshool,
-            link: "https://1.envato.market/babzGx"
+            link: "https://1.envato.market/9gqdRe"
         },
         {
             id: 5,
