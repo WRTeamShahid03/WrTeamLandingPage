@@ -33,13 +33,27 @@
     #header .navFlex {
         gap: 0;
     }
+
     .nav-link {
         font-size: 16px !important;
-        padding: 0px 9px!important;
+        padding: 0px 9px !important;
     }
 
     .commonTexts {
         padding: 20px 200px;
+    }
+
+    .megaSale {
+        padding: 0px 80px;
+        padding-right: 155px;
+    }
+
+    .megaSale .saleLeftDiv .saleHeadline {
+        font-size: 60px;
+    }
+
+    .megaSale .saleLeftDiv .offerWrapper {
+        left: 158px;
     }
 
     #bundles .card .cardImg .appImg {
@@ -72,6 +86,24 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
 
+    .megaSale {
+        padding: 0px 44px;
+        padding-right: 140px;
+    }
+
+    .megaSale .saleLeftDiv .saleHeadline {
+        font-size: 55px;
+    }
+
+    .megaSale .saleLeftDiv .midLine {
+        font-size: 50px;
+    }
+
+    .megaSale .saleLeftDiv .offerWrapper {
+        left: 268px;
+        top: 30px;
+    }
+
     .megaSale .saleLeftDiv {
         padding-top: 126px;
     }
@@ -81,12 +113,24 @@
         top: 30px;
     }
 
-    .megaSale .saleLeftDiv .offerShapeText {
-        left: 298px;
-        top: 68px;
+    .megaSale .saleLeftDiv .offerWrapper .offerShape img {
+        width: 172px;
     }
+
+    .megaSale .saleLeftDiv .offerShapeText {
+        left: 285px;
+        top: 62px;
+        font-size: 36px;
+        line-height: 38px;
+    }
+
     .megaSale .saleLeftDiv .saleHeadline {
         margin-top: -32px;
+    }
+
+    .megaSale .saleLeftDiv .evanto {
+        margin-top: -12px;
+        margin-bottom: 12px;
     }
 
     .commonTexts {
@@ -123,6 +167,10 @@
         justify-content: center;
         padding: 0px;
         padding-right: 0px;
+    }
+
+    .megaSale .col-lg-9 {
+        margin-left: -116px;
     }
 
     .megaSale .col-lg-9,
@@ -230,14 +278,34 @@
         left: 0px;
     }
 
+    .megaSale .saleLeftDiv .saleHeadline {
+        font-size: 60px;
+    }
+
     .megaSale .saleLeftDiv .offerShape {
         left: 385px;
         top: -98px;
     }
 
+    .megaSale .saleLeftDiv .offerWrapper {
+        position: absolute;
+        left: 80px;
+        top: 144px;
+    }
+
+    .megaSale .saleLeftDiv .offerWrapper .offerShape img {
+        width: 140px;
+    }
+
     .megaSale .saleLeftDiv .offerShapeText {
-        left: 446px;
-        top: -62px;
+        left: 424px;
+        top: -76px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .megaSale .saleLeftDiv .midLine {
+        font-size: 65px;
     }
 
     #countdown .countdownDiv .countdown-container {
@@ -300,6 +368,7 @@
     .countdownOver .boldText {
         font-size: 34px;
     }
+
     .countdownOver span {
         font-size: 32px;
     }
@@ -332,22 +401,45 @@
     .megaSale .saleLeftDiv {
         padding-top: 40px;
         left: 0px;
+        gap: 12px;
+    }
+
+    .megaSale .saleLeftDiv .saleHeadline {
+        font-size: 55px;
+        line-height: 70px;
+        text-align: center;
+        margin-left: -55px;
     }
 
     .megaSale .saleLeftDiv .offerShape {
-        left: 230px;
-        top: 65px;
+        left: 385px;
+        top: -98px;
     }
 
-    .megaSale .saleLeftDiv .offerShape img {
-        width: 160px;
+    .megaSale .saleLeftDiv .offerWrapper {
+        position: absolute;
+        left: -54px;
+        top: 104px;
+    }
+
+    .megaSale .saleLeftDiv .offerWrapper .offerShape img {
+        width: 114px;
     }
 
     .megaSale .saleLeftDiv .offerShapeText {
-        left: 272px;
-        top: 94px;
-        font-size: 34px;
-        line-height: 40px;
+        left: 418px;
+        top: -80px;
+        font-size: 23px;
+        line-height: 30px;
+        text-shadow: none;
+    }
+
+    .megaSale .saleLeftDiv .midLine {
+        font-size: 60px;
+    }
+
+    .megaSale .saleLeftDiv .desc {
+        width: 100%;
     }
 
     #countdown .countdownDiv .countdown-container {
@@ -414,9 +506,11 @@
         margin-top: -170px;
         padding: 60px;
     }
+
     .countdownOver .boldText {
         font-size: 24px;
     }
+
     .countdownOver span {
         font-size: 24px;
     }
@@ -431,7 +525,7 @@
     .megaSale {
         align-items: center;
         justify-content: center;
-        padding: 0px 36px;
+        padding: 0px 10px;
         padding-right: 0px;
     }
 
@@ -448,43 +542,54 @@
     }
 
     .megaSale .saleLeftDiv {
-        padding-top: 18px;
-        left: -10px;
+        padding-top: 40px;
+        left: 0px;
+        gap: 12px;
     }
 
     .megaSale .saleLeftDiv .saleHeadline {
-        font-size: 38px;
-    }
-
-    .megaSale .saleLeftDiv .midLine {
-        font-size: 65px;
-        line-height: 70px;
+        font-size: 45px;
+        line-height: 60px;
+        text-align: center;
+        margin-left: -55px;
     }
 
     .megaSale .saleLeftDiv .offerShape {
-        left: 155px;
-        top: 25px;
+        left: 385px;
+        top: -98px;
     }
 
-    .megaSale .saleLeftDiv .offerShape img {
-        width: 130px;
+    .megaSale .saleLeftDiv .offerWrapper {
+        position: absolute;
+        left: -140px;
+        top: 104px;
+    }
+
+    .megaSale .saleLeftDiv .offerWrapper .offerShape img {
+        width: 114px;
     }
 
     .megaSale .saleLeftDiv .offerShapeText {
-        left: 190px;
-        top: 45px;
-        font-size: 26px;
-        line-height: 35px;
+        left: 418px;
+        top: -80px;
+        font-size: 23px;
+        line-height: 30px;
+        text-shadow: none;
+    }
+
+    .megaSale .saleLeftDiv .midLine {
+        font-size: 40px;
     }
 
     .megaSale .saleLeftDiv .desc {
-        font-size: 20px;
+        font-size: 24px;
         width: 100%;
     }
 
     #countdown .countdownDiv .countdown-container {
         gap: 12px;
     }
+
     #countdown .countdownDiv {
         font-size: 25px;
     }
@@ -494,6 +599,7 @@
         padding: 8px 18px;
         font-size: 20px;
     }
+
     #countdown .countdownDiv .countdown-container .countdown-box .countdown-label {
         font-size: 16px;
     }
@@ -608,11 +714,12 @@
         font-size: 18px;
         margin-top: 10px;
     }
+
     .countdownOver span {
         font-size: 20px;
     }
 
-    
+
 }
 
 @media screen and (max-width: 399px) {
@@ -635,9 +742,10 @@
     .megaSale {
         align-items: center;
         justify-content: center;
-        padding: 0px 36px;
+        padding: 0px 10px;
         padding-right: 0px;
     }
+
 
     .megaSale .saleRightDiv {
         display: flex;
@@ -657,41 +765,52 @@
     }
 
     .megaSale .saleLeftDiv {
-        padding-top: 10px;
-        left: -10px;
+        padding-top: 30px;
+        left: 0px;
+        gap: 6px;
+    }
+
+    .megaSale .saleLeftDiv .evanto {
+        font-size: 26px;
     }
 
     .megaSale .saleLeftDiv .saleHeadline {
-        font-size: 30px;
-    }
-
-    .megaSale .saleLeftDiv .midLine {
-        font-size: 48px;
-        line-height: 60px;
-        margin-top: -34px;
+        font-size: 38px;
+        line-height: 50px;
+        text-align: center;
+        margin-left: -18px;
     }
 
     .megaSale .saleLeftDiv .offerShape {
-        left: 98px;
-        top: 40px;
+        left: 385px;
+        top: -98px;
     }
 
-    .megaSale .saleLeftDiv .offerShape img {
-        width: 100px;
+    .megaSale .saleLeftDiv .offerWrapper {
+        position: absolute;
+        left: -200px;
+        top: 104px;
+    }
+
+    .megaSale .saleLeftDiv .offerWrapper .offerShape img {
+        width: 90px;
     }
 
     .megaSale .saleLeftDiv .offerShapeText {
-        left: 126px;
-        top: 52px;
+        left: 410px;
+        top: -84px;
         font-size: 20px;
-        line-height: 30px;
+        line-height: 24px;
         text-shadow: none;
     }
 
+    .megaSale .saleLeftDiv .midLine {
+        font-size: 34px;
+    }
+
     .megaSale .saleLeftDiv .desc {
-        font-size: 16px;
+        font-size: 22px;
         width: 100%;
-        margin-top: -10px;
     }
 
 
@@ -702,6 +821,7 @@
     #countdown .countdownDiv .countdown-container {
         gap: 10px;
     }
+
     #countdown .countdownDiv {
         font-size: 25px;
     }
@@ -711,6 +831,7 @@
         padding: 8px 12px;
         font-size: 20px;
     }
+
     #countdown .countdownDiv .countdown-container .countdown-box .countdown-label {
         font-size: 16px;
     }
@@ -853,6 +974,7 @@
         font-size: 14px;
         margin-top: 10px;
     }
+
     .countdownOver span {
         font-size: 16px;
     }

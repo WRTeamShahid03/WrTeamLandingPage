@@ -134,37 +134,54 @@ header {
     flex-direction: column;
     gap: 40px;
     position: relative;
-    padding-top: 197px
+    padding-top: 120px
 }
 
 .megaSale .saleLeftDiv .saleHeadline {
-    /* color: #f6008a; */
-    font-family: 'Roboto';
-    font-size: 68px;
+    color: #f6008a;
+     font-family: 'Roboto';
+    font-size: 70px;
     font-weight: 900;
     line-height: 58px;
     text-transform: uppercase;
     font-style: oblique;
     background: linear-gradient(98deg, rgba(0, 136, 255, 0.08) 0.38%, rgba(103, 0, 255, 0.03) 99.61%);
-    background: linear-gradient(to right, #FF0177, #EC8C24, #FF0177,#EC8C24);
+    background: linear-gradient(to right, #FF0177, #EC8C24, #FF0177, #EC8C24);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px #FFF;
+
+
+}
+
+.megaSale .saleLeftDiv .evanto {
+    color: white;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+}
+
+.megaSale .saleLeftDiv .evanto img {
+    width: 34px;
+    margin-bottom: 6px;
 }
 
 .megaSale .saleLeftDiv .midLine {
     color: var(--primary-color);
     font-family: Roboto;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 900;
-    text-shadow: 2px -2px white;
-    line-height: 88px;
-    -webkit-text-stroke: 0.5px #FFF;
+    line-height: 70px;
 }
 
 .megaSale .saleLeftDiv .offerWrapper {
     position: absolute;
-    left: 65px;
+    left: 256px;
 }
 
 .megaSale .saleLeftDiv .offerShape {
@@ -190,10 +207,14 @@ header {
 .megaSale .saleLeftDiv .desc {
     color: #FFF;
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 600;
     line-height: 34px;
     width: 75%;
+}
+
+.megaSale .saleLeftDiv .desc span{
+    color: var(--primary-color);
 }
 
 .megaSale .saleRightDiv .saleImg {
@@ -1012,8 +1033,6 @@ footer .cpyRight {
     font-weight: 900;
 }
 
-
-
 #countdown .countdownDiv .countdown-container .countdown-box .countdown-label {
     margin-top: 12px;
     text-align: center;
@@ -1054,9 +1073,9 @@ footer .cpyRight {
 
 
 /* firecracker */
-canvas {
+/* canvas {
     position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
-}
+} */
